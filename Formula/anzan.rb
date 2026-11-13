@@ -1,28 +1,28 @@
 class Anzan < Formula
   desc "Terminal trainer for mental math"
   homepage "https://github.com/BenjaminLucier/anzan"
-  version "0.1.0"
+  version "0.1.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.0/anzan-aarch64-apple-darwin.tar.gz"
-      sha256 "4ce1c8e7695ea4d72e0c72019d7c850f87b03c396f7a2b57dc0ef6e6ad5899e1"
+      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.1/anzan-aarch64-apple-darwin.tar.gz"
+      sha256 "a75cdb4cec7399c96787d54e58370fc0da0826f48ae969c165746b5553eec6af"
     end
     on_intel do
-      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.0/anzan-x86_64-apple-darwin.tar.gz"
-      sha256 "3497813af9d005d20aed6df5bf8df6f4bead48dc4838a3dc3f8782778ee7feda"
+      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.1/anzan-x86_64-apple-darwin.tar.gz"
+      sha256 "1424398cbafda1e13530918ad9d0939a1b2708eaefab4cc17586afbe56aeda0d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.0/anzan-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "fe626b02d732fa49cdc84b45d128d690c4e8633d1bf9c958521c09f224ea0bad"
+      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.1/anzan-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "014a1a3ad931d1c90236d7f31330c5b63272f1672cc6f5669fa3eb36478330ac"
     end
     on_intel do
-      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.0/anzan-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "5c2efda67a42ecf09fa36fe14d44cde02c7f500e48b625e467ede0e2cdfc037d"
+      url "https://github.com/BenjaminLucier/anzan/releases/download/v0.1.1/anzan-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6eeb4b89fe9266400b59e9e332eae38c40246cc5b4575a81e3b0d04e329c8f20"
     end
   end
 
